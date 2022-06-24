@@ -30,7 +30,6 @@ const Button = ({
   return (
     <button
       {...props}
-      onClick={() => alert("hello")}
       className={`storybook-button storybook-button--${variant} ${
         disabled ? "storybook-button--disabled" : ""
       } ${longButton ? "storybook-button--long" : ""}`}
