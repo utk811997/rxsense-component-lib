@@ -1,6 +1,6 @@
 {
   "name": "rxsense-component-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A component library for singlecare",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
