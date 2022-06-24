@@ -1,0 +1,49 @@
+.storybook-button {
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    line-height: normal;
+    padding: 11px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    opacity: 1;
+    font-size: 21px;
+    font-style: normal;
+    justify-content: center;
+    width: auto;
+    height: 50px;
+    letter-spacing: 0.03em;
+    margin: 0;
+    white-space: nowrap;
+    transition: "background-color 0.3s ease";
+    overflow: hidden;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(180deg, #ff407a, #dd216b 50%);
+    font-family: "felix-semiBold";
+}
+.storybook-button--primary {
+    color: #fff;
+    background: linear-gradient(180deg, #ff407a, #dd216b 50%);
+}
+.storybook-button--secondary {
+    color: #ff407a;
+    background: #fff;
+    border: 1px solid #ff407a;
+}
+.storybook-button--disabled {
+    opacity: 50%;
+    cursor: not-allowed !important;
+}
+.storybook-button--disabled::hover {
+    color: #00baf2;
+    text-decoration: none;
+}
+.button-image {
+    padding: 0 10px 0 0;
+}
+.storybook-button--long {
+    width: 100%;
+}
