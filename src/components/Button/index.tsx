@@ -14,14 +14,12 @@ export interface ButtonProps {
       height: string;
     };
   };
-  onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
 }
 
 const Button = ({
   children,
   containsIcon,
   icon,
-  onClick,
   variant = "primary",
   disabled,
   longButton,
